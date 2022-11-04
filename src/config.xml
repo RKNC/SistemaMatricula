@@ -1,0 +1,13 @@
+<xml version=1.0>
+  <docentes>
+    <docente apellidoPaterno="Ticona" apellidoMaterno="Zegarra" edad=33>Edson</docente>
+    <docente apellidoPaterno="Navaja" apellidoMaterno="XX" edad=63>Pedro</docente>
+    <docente apellidoPaterno="Alimanha" apellidoMaterno="Manha" edad=57>Juanito</docente>
+  </docentes>
+  <cursos>
+    <curso semestre="2022-2" nombre="mate11">
+      <secciones grupo=1 capacidad=50 matriculados=0 docente="Edson Ticona Zegarra"> </secciones>
+      <secciones grupo=2 capacidad=50 matriculados=0 docente="Pedro Navaja XX"> </secciones>
+    </curso>
+  </cursos>
+</xml>

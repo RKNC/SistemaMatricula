@@ -13,6 +13,7 @@ public class Estudiante extends Persona{
     }
 
     public void matricular(Seccion seccion){
+
         secciones.add(seccion);
     }
 

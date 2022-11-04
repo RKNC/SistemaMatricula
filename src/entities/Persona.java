@@ -5,7 +5,7 @@ import java.util.Enumeration;
 import java.util.UUID;
 import java.util.Vector;
 
-public class Persona {
+public abstract class Persona {
     private  String nombres;
 
     private String apellidoPaterno;
@@ -34,7 +34,7 @@ public class Persona {
     }
 
     public String NombreCompleto(){
-        return nombre + " " + apellidoPaterno + " " + apellidoPaterno;
+        return nombres + " " + apellidoPaterno + " " + apellidoPaterno;
     }
 
     public void mostrarSecciones(){
@@ -58,8 +58,8 @@ public class Persona {
         return this.apellidoPaterno;
     }
 
-    public String getApeliidoMaterno(){
-        return this.apeliidoMaterno;
+    public String getApellidoMaterno(){
+        return this.apellidoMaterno;
     }
 
     public abstract void  marcarAsistencia();
